@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -34,6 +35,11 @@ namespace TallerCsharp
             Console.WriteLine("EL producto es: " + producto);
             Console.WriteLine($"El producto de {a} * {b} = {producto}");
 
+            Console.WriteLine(); //Salto de linea
+            Console.WriteLine("Algoritmo Area Triangulo");
+
+            Ejercicio1 ej1 = new Ejercicio1();
+            ej1.areatriangulo();
             //Detener pantalla para mostrar el resultado
             Console.ReadKey();
         }
