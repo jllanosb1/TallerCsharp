@@ -12,6 +12,7 @@ namespace TallerCsharp
         static void Main(string[] args)
         {
             //Escribir mensaje
+            Console.WriteLine("Fundamentos de Algoritmos - 3384");
             Console.WriteLine("Bienvenido a C#");
 
             //-- Definir Variables --
